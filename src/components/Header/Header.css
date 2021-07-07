@@ -1,0 +1,22 @@
+.header span {
+    color: darkgoldenrod;
+    font-size: 25px;
+}
+
+.ityped-cursor {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.header h1 {
+    color: #fae1bb;
+}
