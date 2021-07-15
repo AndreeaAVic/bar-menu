@@ -1,4 +1,31 @@
-.header span {
+.header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.logo-place-holder {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.logo-place-holder #logo {
+    width: 15%;
+    border-radius: 50%;
+    padding: 1%;
+}
+
+.text-place-holder {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    top: 20%;
+}
+
+.text-place-holder span {
     color: darkgoldenrod;
     font-size: 25px;
 }
@@ -17,6 +44,7 @@
     }
 }
 
-.header h1 {
+.text-place-holder h1 {
     color: #fae1bb;
+    padding-left: 3px;
 }

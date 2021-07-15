@@ -2,6 +2,8 @@ import { useEffect, useRef } from "react";
 import { init } from "ityped";
 import { Container } from "react-bootstrap";
 
+import logo from "./tom&jerry.jpg";
+
 import "./Header.css";
 
 export function Header() {
@@ -9,9 +11,8 @@ export function Header() {
 
     useEffect(() => {
         init(textRef.current, {
-            showCursor: true,
-            backDelay: 1500,
-            backSpeed: 60,
+            backDelay: 2000,
+            backSpeed: 70,
             strings: ["There's no place like", "Home means"],
         });
     }, []);
@@ -19,8 +20,13 @@ export function Header() {
     return (
         <Container fluid>
             <div className="header">
-                <span ref={textRef}></span>
-                <h1>TOM</h1>
+                <div className="logo-place-holder">
+                    <img src={logo} alt="logo" id="logo" />
+                </div>
+                <div className="text-place-holder">
+                    <span ref={textRef}></span>
+                    <h1>TOM</h1>
+                </div>
             </div>
         </Container>
     );
