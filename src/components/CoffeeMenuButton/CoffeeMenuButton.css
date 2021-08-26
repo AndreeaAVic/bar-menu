@@ -1,0 +1,5 @@
+.coffee-menu-button {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
