@@ -14,7 +14,6 @@ export class Menu extends Component {
     };
 
     changeShowHideMenuState = () => {
-        console.log(this.state.showHideMenu);
         this.setState({ showHideMenu: !this.state.showHideMenu });
     }
 

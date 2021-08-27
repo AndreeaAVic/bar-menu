@@ -1,0 +1,6 @@
+{
+    "name": ["Tuborg", "Carlsberg", "Carlsberg", "Bucur blonde", "Bucur dark", "Weihenstephaner", "Corona", "Kronenbourg blanc"],
+    "size": ["0.5l", "0.66l", "0.33l", "0.33l", "0.33l", "0.5l", "0.35l", "0.33l"],
+    "price": [7, 10, 7, 8, 8, 12, 11, 11],
+    "currency": "lei"
+}
