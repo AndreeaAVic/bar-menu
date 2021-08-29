@@ -1,6 +1,52 @@
 {
-    "name": ["Tuborg", "Carlsberg", "Carlsberg", "Bucur blonde", "Bucur dark", "Weihenstephaner", "Corona", "Kronenbourg blanc"],
-    "size": ["0.5l", "0.66l", "0.33l", "0.33l", "0.33l", "0.5l", "0.35l", "0.33l"],
-    "price": [7, 10, 7, 8, 8, 12, 11, 11],
-    "currency": "lei"
+    "beers": [
+        {
+            "name": "Tuborg",
+            "size": "0.5L",
+            "price": 7,
+            "currency": "lei" 
+        },
+        {
+            "name": "Carlsberg",
+            "size": "0.66L",
+            "price": 10,
+            "currency": "lei" 
+        },
+        {
+            "name": "Carlsberg",
+            "size": "0.33L",
+            "price": 7,
+            "currency": "lei" 
+        },
+        {
+            "name": "Bucur blonde",
+            "size": "0.33L",
+            "price": 8,
+            "currency": "lei" 
+        },
+        {
+            "name": "Bucur dark",
+            "size": "0.33L",
+            "price": 8,
+            "currency": "lei" 
+        },
+        {
+            "name": "Weihenstephaner",
+            "size": "0.5L",
+            "price": 12,
+            "currency": "lei" 
+        },
+        {
+            "name": "Corona",
+            "size": "0.35L",
+            "price": 11,
+            "currency": "lei" 
+        },
+        {
+            "name": "Kronenbourg blanc",
+            "size": "0.33L",
+            "price": 11,
+            "currency": "lei" 
+        }
+    ]
 }
